@@ -26,7 +26,6 @@ export const HeroSection = () => {
           <div className="h-full lg:h-auto flex items-center justify-center lg:justify-end relative lg:pt-8">
             <img
               src={img1}
-              alt="Hero Image"
               className="w-full lg:w-4/5 mb-8 lg:mb-0"
             />
           </div>
@@ -47,7 +46,6 @@ export const FounderSection = () => {
             <img
               className="w-full h-auto rounded-lg shadow-md"
               src={img2}
-              alt="Founder"
             />
           </div>
           <div className="w-full md:w-1/2 px-4">
