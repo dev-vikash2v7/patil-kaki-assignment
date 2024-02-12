@@ -1,3 +1,15 @@
+
+:root{
+  --sage-100: #e0f2f1;
+  --sage-200: #b3d9dc;
+  --sage-300: #80c0bf;
+  --sage-400: #4dabaa;
+  --sage-500: #1a938c;
+  --sage-600: #0f7a75;
+  --sage-700: #0d5c57;
+  --sage-800: #0b3b36;
+  --sage-900: #081a17;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +22,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@import url('https://fonts.googleapis.com/css2?family=General+Sans:wght@400;500;600;700;800&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'General Sans', sans-serif;
 }
